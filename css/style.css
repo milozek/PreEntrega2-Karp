@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.index {
+  background-image: url(../assets/img/4249454.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+}
+.challenge {
+  background-image: url(../assets/img/verde-bs.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+}
+.your-nft {
+  background-image: url(../assets/img/blue-bs.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+}
+.create-path {
+  background-image: url(../assets/img/red-bs.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+}
+.download {
+  background-image: url(../assets/img/amarillo-bs.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+}
+
+/* Header inicia */
+.navBar {
+  display: flex;
+  width: 95%;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  margin: 25px;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.671);
+  border-radius: 25%;
+}
+
+.navBar li {
+  list-style: none;
+}
+.navBar li a {
+  text-decoration: none;
+}
+
+/* Main inicia */
+.container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  /* position: fixed; */
+}
+.main {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-between;
+  padding: 125px;
+  position: fixed;
+}
+
+.sargento {
+  margin-bottom: 100px;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 105px solid rgba(0, 0, 0, 0.623);
+}
+
+/* Footer inicia */
+footer {
+  width: 90%;
+  margin-top: 100px;
+  margin-left: 5%;
+  display: flex;
+  position: fixed;
+}
+.contact {
+  width: 100%;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: center;
+  border-radius: 20%;
+  background-color: rgba(250, 235, 215, 0.673);
+}
+
+.rank {
+  width: 100%;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.social-media {
+  width: 100%;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-end;
+  justify-content: center;
+  background-color: rgba(250, 235, 215, 0.673);
+  border-radius: 20%;
+}
